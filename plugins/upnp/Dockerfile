@@ -1,4 +1,4 @@
-FROM balenalib/%%BALENA_MACHINE_NAME%%-debian:buster
+FROM balenalib/raspberry-pi-debian:buster
 WORKDIR /usr/src
 
 ENV PULSE_SERVER=tcp:localhost:4317

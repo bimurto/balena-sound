@@ -1,5 +1,5 @@
 # hadolint ignore=DL3006
-FROM bh.cr/balenalabs/audio-%%BALENA_ARCH%%
+FROM bh.cr/balenalabs/audio-arm64
 
 WORKDIR /usr/src
 COPY . .
